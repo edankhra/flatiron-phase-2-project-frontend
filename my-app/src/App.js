@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import '../src/styles.css';
 import Home from './pages/Home';
 import About from './pages/About';
-import Pricing from './pages/Pricing';
+import Painting from './pages/Painting';
 import Contect from './pages/Contect';
 import { Component } from 'react';
 
@@ -20,8 +20,8 @@ function App() {
     Component = About
     break;
 
-    case "/pricing":
-    Component = Pricing
+    case "/painting":
+    Component = Painting
     break;
 
     case "/contect":
