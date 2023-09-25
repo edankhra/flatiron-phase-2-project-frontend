@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 import '../src/styles.css';
 import Home from './pages/Home';
 import About from './pages/About';
-import Painting from './pages/Painting';
-import Contect from './pages/Contect';
+import Paintinglist from './pages/Paintinglist';
+import Paintingform from './pages/Paintingform';
 import { Component } from 'react';
 
 
@@ -20,12 +20,12 @@ function App() {
     Component = About
     break;
 
-    case "/painting":
-    Component = Painting
+    case "/paintinglist":
+    Component = Paintinglist
     break;
 
-    case "/contect":
-    Component = Contect
+    case "/paintingform":
+    Component = Paintingform
     break;
   }
   
