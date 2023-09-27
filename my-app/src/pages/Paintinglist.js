@@ -4,19 +4,18 @@ const Paintinglist = () => {
     const[paintings, setPaintings] = useState([]);
 
     useEffect(() =>{
-        fetchPaintings();
+        fetch("http://localhost:3001/paintings")
+         .then((response) => response.json())
+         .then((data) => setPaintings(data));
     }, []);
 
-    const fetchPaintings = async () => {
-        try {
-            const res
-        }
-    }
   return (
     <div> 
-        <h2>Paintings</h2>
+        <h1>Paintings</h1>
         <ul>
-           
+           {paintings.map((painting) => (
+            <li key={painting.id}>{painting.name}</li>
+           ))}
         </ul>
     </div>
   )
