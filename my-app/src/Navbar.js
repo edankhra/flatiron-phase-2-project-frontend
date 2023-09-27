@@ -1,18 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className='nav'>
-      <a href='/' className='site-title'>Art Gallery</a>
-      {/*Create Navbar with Home, about, pricing, contect*/}
+      <Link to="/" className="site-title">
+        Art Gallery
+      </Link>
       <ul>
-      <li><a href='/'>Home</a></li>
-      <li><a href='/about'>About</a></li>
-      <li><a href='/pricing'>Pricing</a></li>
-      <li><a href='/contect'>Contect</a></li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/paintings">Add Painting</Link>
+        </li>
+        <li>
+          <Link to="/paintinglist">Painting List</Link>
+        </li>
       </ul>
     </nav>
   )
 }
 
-export default Navbar
+export default Navbar;

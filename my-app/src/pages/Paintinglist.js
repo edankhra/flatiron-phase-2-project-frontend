@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-const Paintinglist = ({paintings}) => {
+const Paintinglist = () => {
+    const[paintings, setPaintings] = useState([]);
+
+    useEffect(() =>{
+        fetchPaintings();
+    }, []);
+
+    const fetchPaintings = async () => {
+        try {
+            const res
+        }
+    }
   return (
     <div> 
         <h2>Paintings</h2>
         <ul>
-            {paintings.map((painting) => (
-                <li key={painting.id}>{painting.name}</li>
-            ))}
+           
         </ul>
     </div>
   )
 }
 
-export default Paintinglist
+export default Paintinglist;
