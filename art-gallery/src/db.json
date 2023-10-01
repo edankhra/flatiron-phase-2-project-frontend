@@ -1,0 +1,47 @@
+{
+    "paintings": [
+        {
+            "id": 1,
+            "name": "Gass Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Glass_painting.jpg",
+            "price": 10.50
+        },
+        {
+            "id": 2,
+            "name": "Acrylic Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Acrylic_painting.jpg",
+            "price": 20.25
+        },
+        {
+            "id": 3,
+            "name": "Knife Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Knife_painting.jpg",
+            "price": 30.10
+        },
+        {
+            "id": 4,
+            "name": "Oil Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Oil_painting.jpg",
+            "price": 45.30
+        },
+        {
+            "id": 5,
+            "name": "Pastel Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Pastel_paintin.jpg",
+            "price": 18.60
+        },
+        {
+            "id": 6,
+            "name": "Portrait Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Portrait_painting.jpg",
+            "price": 48.30
+        },
+        {
+            "id": 7,
+            "name": "Watercolour Painting",
+            "image":"https://github.com/edankhra/flatiron-phase-2-project-frontend/blob/main/art-gallery/public/Watercolour_painting.jpg",
+            "price": 25.50
+        }
+    ]
+  }
+  
