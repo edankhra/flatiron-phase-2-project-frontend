@@ -34,7 +34,7 @@ const PaintingForm = () => {
       body: JSON.stringify(formData)
     }
 
-    fetch("http://localhost:3001/paintings", configObj)
+    fetch("https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/art-gallery/db.json", configObj)
     .then(r => r.json())
     .then(() => setFormData({
       name: "",
