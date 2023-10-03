@@ -34,7 +34,7 @@ const PaintingForm = () => {
       body: JSON.stringify(formData)
     }
 
-    fetch("https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/art-gallery/db.json", configObj)
+    fetch("http://localhost:3001/paintings", configObj)
     .then(r => r.json())
     .then(() => setFormData({
       name: "",
@@ -48,7 +48,7 @@ const PaintingForm = () => {
     <div className='painting-form'>
       <h1> Add Painting </h1>
     <form onSubmit={handleSubmit}>
-    <input type="text" name="name" value ={formData.name} placeholder="Plant name" onChange ={handleChange} />
+    <input type="text" name="name" value ={formData.name} placeholder="Painting name" onChange ={handleChange} />
         <input type="text" name="image" value ={formData.image} placeholder="Image URL" onChange ={handleChange}/>
         <input type="number" name="price" step="0.01" value ={formData.price} placeholder="Price" onChange ={handleChange}/>
         <button type="submit">Add Painting</button>
