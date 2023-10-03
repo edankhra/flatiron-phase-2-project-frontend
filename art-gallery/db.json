@@ -71,6 +71,18 @@
       "price": 14.8,
       "image": "\"C:\\Users\\dnnik\\OneDrive\\Desktop\\Glass_painting.jpg\"",
       "id": 12
+    },
+    {
+      "name": "",
+      "price": 0,
+      "image": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "price": 0,
+      "image": "",
+      "id": 14
     }
   ]
 }
