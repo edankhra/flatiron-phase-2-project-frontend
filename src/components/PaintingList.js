@@ -5,13 +5,16 @@ const PaintingList = () => {
   const [paintings, setPaintings] = useState([]);
 
     useEffect(() => {
-    fetch("http://localhost:3001/paintings")
+    fetch("https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/db.json")
       .then(response => response.json())
-      .then(data => setPaintings(data))
+      .then(data => {
+        console.log(data)
+        setPaintings(data.paintings)
+      })
       .catch(error => console.error('Error fetching paintings:', error));
   }, []);
 
-
+console.log(paintings)
   return (
     <div className='painting-list'>
       <h1>Paintings</h1>
