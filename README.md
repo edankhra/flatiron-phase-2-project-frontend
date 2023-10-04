@@ -1,4 +1,3 @@
-# flatiron-phase-2-project-frontend
 ## Art Gallery ##
 
 I have made website of Art Gallery using React 
