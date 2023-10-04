@@ -41,48 +41,7 @@
       "name": "Watercolour Painting",
       "image": "https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/art-gallery/public/Watercolour_painting(2).jpg",
       "price": 25.5
-    },
-    {
-      "name": "Ekta Dankhra",
-      "price": 25.5,
-      "image": "https://www.bing.com/images",
-      "id": 8
-    },
-    {
-      "name": "Ekta Dankhra",
-      "price": 0,
-      "image": "https://www.bing.com/images",
-      "id": 9
-    },
-    {
-      "name": "edankhra",
-      "price": 23.8,
-      "image": "./images/pilea.jpg",
-      "id": 10
-    },
-    {
-      "name": "",
-      "price": 0,
-      "image": "",
-      "id": 11
-    },
-    {
-      "name": "edankhra",
-      "price": 14.8,
-      "image": "\"C:\\Users\\dnnik\\OneDrive\\Desktop\\Glass_painting.jpg\"",
-      "id": 12
-    },
-    {
-      "name": "",
-      "price": 0,
-      "image": "",
-      "id": 13
-    },
-    {
-      "name": "",
-      "price": 0,
-      "image": "",
-      "id": 14
     }
+    
   ]
 }

@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Playfair Display", serif;
   height: 100%;
@@ -36,8 +35,8 @@ body {
 }
 h1{
   text-align: center;
-
-  margin-bottom: 2rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
   color: rgb(5, 85, 32);
 }
 .nav{
@@ -52,13 +51,12 @@ h1{
 }
 .nav ul{
   padding: 0;
-  margin: 0;
+  margin:  0;
   display: flex;
   list-style: none;
   gap: 2rem;
   border: #852323;
 }
-
 .nav a{
   color: inherit;
   text-decoration: none;
@@ -68,7 +66,6 @@ h1{
 }
 label {
   font-weight: bold;
-  /* display: block; */
 }
 input {
   padding: 0.25rem;
@@ -79,50 +76,34 @@ input {
   transition: all 0.2s;
   width: 100%;
 }
-.card-container {
-  display: flex; /* Use flex container */
-  justify-content: space-between; /* Arrange items with equal space between them */
-}
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
-
 .card{
   list-style-type: none;
   margin: 1rem;
   padding: 10px;
   margin: 10px;
   width: 300px;
-  display:flexbox;
+  display: flex;
+  height: 100%;
 }
-
-
 .card img{
   width: 100%;
   height: auto;
   margin-right: 10px;
-  
 }
 .cardInfo {
   display: flex;
   flex-direction: column;
 }
-
 .cardInfo h4 {
   margin: 0;
   text-align: center;
 }
-
 .cardInfo p {
   margin: 0;
   text-align: center;
 }
-
 .cardInfo button {
   margin-top: 10px;
-  
 }
 button {
   padding: 0.25rem 1rem;
@@ -135,29 +116,35 @@ button.primary {
   color: rgb(247, 244, 244);
 }
 .painting-list{
-  background-color: rgb(231, 245, 111);
+  background-color: rgb(237, 247, 181);
+}
+.painting-list ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 80px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 .painting-form{
   padding: 8rem 0;
   margin:  0; 
   background-color:rgb(232, 241, 148);
   display: grid;
-  /* height: 100%; */
 }
 .painting-form form {
   display: flex;
   justify-content: center;
 }
-
 .painting-form input {
   margin-right: 2rem;
   flex: 1;
 }
-
 .painting-form button {
   width: 150px;
   border: #333;
   background-color: rgb(11, 172, 25);
+  color: white;
 }
 .home-content img{
   padding: 0;

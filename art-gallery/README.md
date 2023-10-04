@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Art Gallery ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have made website of Art Gallery using React 
 
-## Available Scripts
+Where I made 5 components in src
+  1.Home.js
+  2.Navbar.js
+  3.PaintingCard.js
+  4.PaintingForm.js
+  5.PaintingList.js
+  6.App.js
 
-In the project directory, you can run:
+I have made db.json file
 
-### `npm start`
+* Home.js
+  -  In this component, I have added 1 image for home page and 1 slogen
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Navbar.js
+  - In this component, I have linked 3 pages which named Home, Paintings and Add Painting and once you click on one of the option, it will goes to that page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* PaintingCard.js
+  - In this component, I have added all painting cards with image, name, price and 1 button which has click event on it. Once you clicked, if it is "In stock" then it will change in to "Out Of Stock"
 
-### `npm test`
+* PaintingForm.js
+  - In this component, I have made 1 form which will allow us to add new painting in the list and for that I have used fetch and POST request. Adn used click event to Submit all data. I have added address and contact info in to this component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* PaintingList.js
+  - In this component, I have used "useState" and "useEffect" to fetch db.json file and import PaintingCard component to show list of Paintings.
 
-### `npm run build`
+* App.js
+  - I have import all components in to this and also import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* db.json
+  - In this file, I have made 1 object named paintings which has 1 array of 7 painting with keys and values. For that have added id, name, image and price and other can see those images I have used raw images which URL start like this "https://raw.githubusercontent.com"

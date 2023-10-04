@@ -46,18 +46,14 @@ const PaintingForm = () => {
 
   return (
     <div className='painting-form'>
-      
       <h1> Add Painting </h1>
-      
        <form onSubmit={handleSubmit}>
         <input type="text" name="name" value ={formData.name} placeholder="Painting name" onChange ={handleChange} />
         <input type="text" name="image" value ={formData.image} placeholder="Image URL" onChange ={handleChange}/>
         <input type="number" name="price" step="0.01" value ={formData.price} placeholder="Price" onChange ={handleChange}/>
         <button type="submit">Add Painting</button>
        </form>
-    
-  
-  <div className='contact-info'>
+    <div className='contact-info'>
      <h3>Contact Us</h3>
      <address>
             <h4>Art-Gallery</h4>
