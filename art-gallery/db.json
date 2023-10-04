@@ -41,7 +41,24 @@
       "name": "Watercolour Painting",
       "image": "https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/art-gallery/public/Watercolour_painting(2).jpg",
       "price": 25.5
+    },
+    {
+      "name": "Rose",
+      "price": 25.5,
+      "image": "https://th.bing.com/th/id/OIP.b7rPqNneB0vUk9QHzR8PwAHaHa?pid=ImgDet&rs=1",
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "image": "",
+      "id": 9
+    },
+    {
+      "name": "Rose",
+      "price": 0,
+      "image": "https://th.bing.com/th/id/OIP.b7rPqNneB0vUk9QHzR8PwAHaHa?pid=ImgDet&rs=1",
+      "id": 10
     }
-    
   ]
 }
