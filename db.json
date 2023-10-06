@@ -41,8 +41,36 @@
       "name": "Watercolour Painting",
       "image": "https://raw.githubusercontent.com/edankhra/flatiron-phase-2-project-frontend/main/public/Watercolour_painting(2).jpg",
       "price": 25.5
+    },
+    {
+      "name": "Rose",
+      "price": 25.5,
+      "image": "https://th.bing.com/th/id/OIP.b7rPqNneB0vUk9QHzR8PwAHaHa?pid=ImgDet&rs=1",
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "image": "",
+      "id": 9
+    },
+    {
+      "name": "Rose",
+      "price": 0,
+      "image": "https://th.bing.com/th/id/OIP.b7rPqNneB0vUk9QHzR8PwAHaHa?pid=ImgDet&rs=1",
+      "id": 10
+    },
+    {
+      "name": "dgdf",
+      "price": 3,
+      "image": "dfgfg",
+      "id": 11
+    },
+    {
+      "name": "avatar",
+      "price": 0,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmovies.disney.com%2Favatar-the-way-of-water&psig=AOvVaw28-eSj_-aL0c3eLmZaUZ8k&ust=1684950978745000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiT5daBjP8CFQAAAAAdAAAAABAE",
+      "id": 12
     }
-   
-    
   ]
 }
