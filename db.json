@@ -43,11 +43,6 @@
       "price": 25.5
     },
    
-    {
-      "name": "avatar",
-      "price": 0,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmovies.disney.com%2Favatar-the-way-of-water&psig=AOvVaw28-eSj_-aL0c3eLmZaUZ8k&ust=1684950978745000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiT5daBjP8CFQAAAAAdAAAAABAE",
-      "id": 12
-    }
+    
   ]
 }
