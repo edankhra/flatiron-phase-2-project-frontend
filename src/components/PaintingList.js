@@ -5,7 +5,7 @@ const PaintingList = () => {
   const [paintings, setPaintings] = useState([]);
 
     useEffect(() => {
-    fetch("http://localhost:3001/paintings")
+    fetch("https://db-4idr.onrender.com/paintings")
       .then(response => response.json())
       .then(data => setPaintings(data))
       .catch(error => console.error('Error fetching paintings:', error));

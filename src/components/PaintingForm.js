@@ -34,7 +34,7 @@ const PaintingForm = () => {
       body: JSON.stringify(formData)
     }
 
-    fetch("http://localhost:3001/paintings", configObj)
+    fetch("https://db-4idr.onrender.com/paintings", configObj)
     .then(r => r.json())
     .then(() => setFormData({
       name: "",
