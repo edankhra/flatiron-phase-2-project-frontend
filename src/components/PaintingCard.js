@@ -11,7 +11,7 @@ function PaintingCard({painting}) {
 return (
    <li className="card">
     <div className="cardContent">
-      <img src={image} alt={name} />
+      <img className="fixContainer" src={image} alt={name} />
        <div className="cardInfo">
         <h4>{name}</h4>
         <p>Price: {price}</p>

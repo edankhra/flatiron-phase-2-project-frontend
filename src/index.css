@@ -5,7 +5,9 @@
 }
 body {
   font-family: "Playfair Display", serif;
-  height: 100%;
+  height: 100vh;
+  overflow-X: hidden;
+  width: 100vw;
 }
 @media (min-width: 768px) {
   .cards {
@@ -86,8 +88,8 @@ input {
   height: 100%;
 }
 .card img{
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   margin-right: 10px;
 }
 .cardInfo {
@@ -125,6 +127,7 @@ button.primary {
   justify-content: space-between;
   margin-bottom: 20px;
   padding: 20px;
+  margin-right: 5rem;
 }
 .painting-form{
   padding: 8rem 0;
@@ -167,4 +170,10 @@ button.primary {
   color: #d317c3; 
   font-size: larger;
   font-style: normal;
+}
+
+.fixContainer {
+  width: 17rem;
+  height: 17rem
+
 }
